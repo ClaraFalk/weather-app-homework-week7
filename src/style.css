@@ -1,3 +1,36 @@
-h1 {
-  color: red;
+body {
+  background-color: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+}
+
+.city-heading {
+  font-size: 40px;
+}
+
+.weather-container {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 50px auto;
+  max-width: 600px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+
+.search-bar-input {
+  width: 80%;
+  font-size: 15px;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f9f7fe;
+}
+
+.search-bar-button {
+  font-size: 15px;
+  padding: 15px 30px;
+  margin-left: 6px;
+  border: none;
+  border-radius: 10px;
+  background-color: #885df1;
+  color: #fff;
 }

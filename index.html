@@ -5,41 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather app</title>
     <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <head>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="search" />
-      </form>
-    </head>
+    <div class="weather-container">
+      <header>
+        <form class="search-bar">
+          <input
+            class="search-bar-input"
+            type="search"
+            placeholder="Enter a city..."
+            required
+          />
+          <input class="search-bar-button" type="submit" value="search" />
+        </form>
+      </header>
 
-    <main>
-      <div>
+      <main>
         <div>
-          <h1>Paris</h1>
-          <p>Tuesday 14:56, fog Humidity: 94%, Wind: 1.03km/h</p>
-        </div>
+          <div>
+            <h1 class="city-heading">Paris</h1>
+            <p>Tuesday 14:56, fog Humidity: 94%, Wind: 1.03km/h</p>
+          </div>
 
-        <div>
-          <div>9</div>
-          <div>°C</div>
-          <div>☀️</div>
+          <div>
+            <div>9</div>
+            <div>°C</div>
+            <div>☀️</div>
+          </div>
         </div>
-      </div>
-    </main>
+      </main>
 
-    <footer>
-      <p>
-        This project was coded by
-        <a href="https://github.com/ClaraFalk">Clara Falk</a>, is open-sourced
-        on
-        <a href="https://github.com/ClaraFalk/weather-app-homework-week7"
-          >GitHub</a
-        >
-        and hosted on
-        <a href="https://weather-app-homework-week7.netlify.app/">Netlify</a>.
-      </p>
-    </footer>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="https://github.com/ClaraFalk">Clara Falk</a>, is open-sourced
+          on
+          <a href="https://github.com/ClaraFalk/weather-app-homework-week7"
+            >GitHub</a
+          >
+          and hosted on
+          <a href="https://weather-app-homework-week7.netlify.app/">Netlify</a>.
+        </p>
+      </footer>
+    </div>
   </body>
 </html>
