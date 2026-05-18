@@ -15,9 +15,10 @@
   <body>
     <div class="weather-container">
       <header>
-        <form class="search-bar">
+        <form class="search-bar" id="search-bar">
           <input
             class="search-bar-input"
+            id="search-bar-input"
             type="search"
             placeholder="Enter a city..."
             required
@@ -29,7 +30,7 @@
       <main>
         <div class="weather-details">
           <div>
-            <h1 class="city-heading">Paris</h1>
+            <h1 class="city-heading" id="city-heading">Paris</h1>
             <p class="weather-information-day">
               Tuesday 14:56, fog <br />
               Humidity: <strong>94%</strong>, Wind: <strong>1.03km/h</strong>
@@ -57,5 +58,6 @@
         </p>
       </footer>
     </div>
+    <script src="src/index.js"></script>
   </body>
 </html>
