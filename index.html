@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="weather-container">
@@ -30,7 +31,7 @@
       <main>
         <div class="weather-details">
           <div>
-            <h1 class="city-heading" id="city-heading">Paris</h1>
+            <h1 class="city-heading" id="city-heading"></h1>
             <p class="weather-information-day">
               Tuesday 14:56, fog <br />
               Humidity: <strong>94%</strong>, Wind: <strong>1.03km/h</strong>
@@ -39,7 +40,7 @@
 
           <div class="temperature">
             <div class="degree-icon">☀️</div>
-            <div class="degree">9</div>
+            <div class="degree" id="degree"></div>
             <div class="degree-unit">°C</div>
           </div>
         </div>
