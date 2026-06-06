@@ -37,7 +37,7 @@ p,
 }
 
 .search-bar-input {
-  width: 80%;
+  width: 75%;
   font-size: 16px;
   padding: 15px 20px;
   border: none;
@@ -78,6 +78,38 @@ p,
 .degree-unit {
   font-size: 30px;
   margin-bottom: 40px;
+}
+
+.weather-forecast-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.weather-forecast-weekday {
+  text-align: center;
+}
+
+.weather-forecast-day {
+  color: #ffefec;
+  font-size: 16px;
+}
+
+.weather-forecast-icon {
+  font-size: 35px;
+  margin: 5px 0;
+}
+
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: center;
+}
+
+.weather-forecast-temperature {
+  padding: 0 10px;
+  color: #b8506f;
 }
 
 footer {
