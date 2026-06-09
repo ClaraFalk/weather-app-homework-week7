@@ -64,3 +64,30 @@ let searchBar = document.querySelector("#search-bar");
 searchBar.addEventListener("submit", handleSubmit);
 
 searchCity("Melbourne");
+
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+  <div class="weather-forecast-weekday">
+    <div class="weather-forecast-day">${day}</div>
+    <div class="weather-forecast-icon">☀️</div>
+    <div class="weather-forecast-temperatures">
+      <div class="weather-forecast-temperature">
+        <strong>19°C</strong>
+      </div>
+      <div class="weather-forecast-temperature">11°C</div>
+    </div>
+  </div>
+`;
+  });
+  forecastElement.innerHTML = forecastHtml;
+}
+
+displayForecast();
