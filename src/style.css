@@ -53,6 +53,11 @@ p,
   border-radius: 10px;
   background-color: #ffc2cb;
   color: #fff;
+  cursor: pointer;
+}
+
+.search-bar-button:active {
+  background-color: #b84f6f;
 }
 
 .weather-details {
