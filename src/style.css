@@ -98,8 +98,10 @@ p,
 }
 
 .weather-forecast-icon {
-  font-size: 35px;
-  margin: 5px 0;
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
