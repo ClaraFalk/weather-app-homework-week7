@@ -57,7 +57,7 @@ p,
 }
 
 .search-bar-button:active {
-  background-color: #b84f6f;
+  background-color: #ffb0bc;
 }
 
 .weather-details {
@@ -76,7 +76,8 @@ p,
 }
 
 .degree-icon {
-  font-size: 40px;
+  width: 90px;
+  height: 90px;
   margin-right: 5px;
 }
 
@@ -103,8 +104,8 @@ p,
 }
 
 .weather-forecast-icon {
-  width: 80px;
-  height: 80px;
+  width: 90px;
+  height: 90px;
   display: block;
   margin: 0 auto;
 }
